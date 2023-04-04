@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.zip\shell\UncompressAndDelete]
+@="Uncompress and delete"
+"Icon"="C:\\Users\\USERNAME\\uncompress_and_delete.ico"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.zip\shell\UncompressAndDelete\command]
+@="C:\\Users\\USERNAME\\uncompress_and_delete.bat \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.rar\shell\UncompressAndDelete]
+@="Uncompress and delete"
+"Icon"="C:\\Users\\USERNAME\\uncompress_and_delete.ico"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.rar\shell\UncompressAndDelete\command]
+@="C:\\Users\\USERNAME\\uncompress_and_delete.bat \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tar\shell\UncompressAndDelete]
+@="Uncompress and delete"
+"Icon"="C:\\Users\\USERNAME\\uncompress_and_delete.ico"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tar\shell\UncompressAndDelete\command]
+@="C:\\Users\\USERNAME\\uncompress_and_delete.bat \"%1\""
